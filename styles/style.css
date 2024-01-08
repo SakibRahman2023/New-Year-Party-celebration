@@ -399,3 +399,60 @@ footer {
 .img-link {
     margin-right: 24px;
 }
+/* bonus section 01*/
+.bonus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.new{
+    color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        width: 210px;
+}
+.soon{
+    color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        width: 330px;
+}
+.dsa{
+    color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        width: 393px;
+}
+.img-b1{
+    width: 364.844px;
+        height: 364.844px;
+        flex-shrink: 0;
+        border-radius: 364.844px;
+}
+.bonus-1{
+    background: #FFF;
+}
+.t-24{
+    color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        width: 130px;
+}
+.dsac{
+color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 280px;
+}
+.img-b2{
+    width: 140px;
+        height: 140px;
+        flex-shrink: 0;
+}
