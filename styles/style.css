@@ -1,5 +1,9 @@
 * {
     max-width: 1600px;
+    
+}
+section{
+    margin: 120px 140px;
 }
 
 /*header section */
@@ -84,64 +88,48 @@
 }
 
 /*Section-3 styles*/
-.section-3 {
-    margin: 0px 140px;
-    background-image: url('../resources/Vectorrr1.png');
+.banner-s3{
+    background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    background-position: 100%;
-
+    background: linear-gradient(100%);
 }
-
-.welcome {
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 88px;
-    width: 642px;
-    margin: 126px 552px 0px 126px;
-}
-
-.wel-text {
-    color: rgba(252, 250, 250, 0.8);
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    width: 697px;
-    padding: 0px 490px 45px 126px;
-}
-
-.btn-s3 {
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    margin: 48px 000px 142px 160px;
-    background-color: transparent;
-    border: none;
-}
-
-.img-2024 {
+.banner{
+    padding: 50px 138px 140px 126px;
     display: flex;
-
-}
-
-.pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    align-items: center;
 
 
 }
+.banner-g{
+    color: #FFF;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-weight: 900;
+        width: 640px;
+        margin-bottom: 0px;
+        
+}
+.banner-t{
+    color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        width: 690px;
+        margin-top: 24px;
+        margin-bottom: 40px;
 
+    
+}
+.btn-s3{
+    color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        background-color: transparent;
+        border: none;
+}
 /*section-4*/
 .section-4 {
     padding: 120px 140px 0px;
