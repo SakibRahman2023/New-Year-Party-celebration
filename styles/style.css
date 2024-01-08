@@ -13,10 +13,14 @@ section {
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: 100%;
-    background-color: #0702114d;
+    background-color: #07021176;
     background-blend-mode: multiply;
     height: 600px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .h-title {
@@ -26,7 +30,6 @@ section {
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-top: 177px;
 
 }
