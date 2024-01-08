@@ -20,7 +20,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .h-title {
@@ -96,9 +96,9 @@ section {
 /*Section-3 styles*/
 .banner-s3 {
     background-image: url('../resources/Vectorrr.png');
-    /* background-image: linear-gradient(90deg,#07011 0%,rgba(7,2,17,0.00) 100%), url('../resources/Vectorrr.png'); */
+
     background-repeat: no-repeat;
-    /* background: linear-gradient(100%); */
+
     background-color: #07021171;
     background-blend-mode: multiply;
 }
@@ -289,6 +289,27 @@ section {
     font-size: 18px;
     font-weight: 400;
     margin-left: 45px;
+}
+
+.mail-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sub-btn {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
 
 /*footer section styles*/
