@@ -231,11 +231,11 @@ section {
     flex-shrink: 0;
     gap: 20px;
     padding: 20px;
+    
 }
-img:hover{
-   background-color: black;
+img :hover {
+transform: scaleX(-1);
 }
-
 /*section-6 styles*/
 .section-6 {
     border-radius: 16px;
@@ -435,7 +435,8 @@ footer {
         height: 364.844px;
         flex-shrink: 0;
         border-radius: 364.844px;
-        border: 10px solid red;
+        border: 15px solid red;
+        padding: 25px;
     
 
 }
