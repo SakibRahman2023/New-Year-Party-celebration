@@ -1,8 +1,9 @@
 * {
     max-width: 1600px;
-    
+
 }
-section{
+
+section {
     margin: 120px 140px;
 }
 
@@ -88,49 +89,54 @@ section{
 }
 
 /*Section-3 styles*/
-.banner-s3{
+.banner-s3 {
     background-image: url('../resources/Vectorrr.png');
     /* background-image: linear-gradient(90deg,#07011 0%,rgba(7,2,17,0.00) 100%), url('../resources/Vectorrr.png'); */
     background-repeat: no-repeat;
     background: linear-gradient(100%);
 }
-.banner{
+
+.banner {
     padding: 50px 138px 140px 126px;
     display: flex;
     align-items: center;
 
 
 }
-.banner-g{
-    color: #FFF;
-        font-family: Merriweather;
-        font-size: 64px;
-        font-weight: 900;
-        width: 640px;
-        margin-bottom: 0px;
-        
-}
-.banner-t{
-    color: rgba(255, 255, 255, 0.80);
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 400;
-        width: 690px;
-        margin-top: 24px;
-        margin-bottom: 40px;
 
-    
-}
-.btn-s3{
+.banner-g {
     color: #FFF;
-        text-align: center;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        background-color: transparent;
-        border: none;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    width: 640px;
+    margin-bottom: 0px;
+
 }
+
+.banner-t {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 690px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+
+}
+
+.btn-s3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+}
+
 /*section-4*/
 .section-4 {
     padding: 120px 140px 0px;
@@ -171,46 +177,105 @@ section{
     background: #F00;
     border: none;
 }
+
 /*section-5 styles*/
-.bf{
+.bf {
     color: #F00;
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 500;
-        margin-bottom: 0;  
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
-.awesome{
+
+.awesome {
     color: #070211;
-        font-family: Merriweather;
-        font-size: 48px;
-        font-weight: 900;
-        margin-top: 16px;
-        margin-bottom: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 20px;
 }
-.bf-text{
+
+.bf-text {
     color: rgba(7, 2, 17, 0.60);
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
-        width: 896px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
 }
 
 
-.img{
+.img {
     display: flex;
     width: 33%;
     width: 400px;
-        height: 420px;
-        flex-shrink: 0;
-        gap: 20px;
-        padding: 20px;
+    height: 420px;
+    flex-shrink: 0;
+    gap: 20px;
+    padding: 20px;
 }
-.img-1{
+
+.img-1 {
     display: flex;
-        width: 33%;
-        width: 400px;
-        height: 420px;
-        flex-shrink: 0;
-        gap: 20px;
-        padding: 20px;
+    width: 33%;
+    width: 400px;
+    height: 420px;
+    flex-shrink: 0;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*section-6 styles*/
+.section-6 {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.s-6 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+.email-img {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.sub{
+    color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        
+        font-weight: 900;
+        padding-top: 0px;
+        padding-bottom: 0px;
+       
+}
+.dolor{
+    color: rgba(7, 2, 17, 0.60);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+}
+.email{
+    border-radius: 50px;
+        background: #FFF;
+        width: 600px;
+            height: 72px;
+            flex-shrink: 0;
+            margin-bottom: 120px;
+}
+.placeholder{
+color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 45px;
 }
