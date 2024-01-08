@@ -194,9 +194,23 @@ section{
         font-weight: 400;
         width: 896px;
 }
-.rec-1{
-    width: 424px;
-        height: 450px;
+
+
+.img{
+    display: flex;
+    width: 33%;
+    width: 400px;
+        height: 420px;
         flex-shrink: 0;
-        border-radius: 16px;
+        gap: 20px;
+        padding: 20px;
+}
+.img-1{
+    display: flex;
+        width: 33%;
+        width: 400px;
+        height: 420px;
+        flex-shrink: 0;
+        gap: 20px;
+        padding: 20px;
 }
