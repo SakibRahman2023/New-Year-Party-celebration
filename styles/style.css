@@ -245,37 +245,109 @@ section {
     height: 150px;
     flex-shrink: 0;
 }
-.sub{
+
+.sub {
     color: #070211;
-        text-align: center;
-        font-family: Merriweather;
-        font-size: 48px;
-        
-        font-weight: 900;
-        padding-top: 0px;
-        padding-bottom: 0px;
-       
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+
+    font-weight: 900;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 }
-.dolor{
+
+.dolor {
     color: rgba(7, 2, 17, 0.60);
-        text-align: center;
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
-.email{
+
+.email {
     border-radius: 50px;
-        background: #FFF;
-        width: 600px;
-            height: 72px;
-            flex-shrink: 0;
-            margin-bottom: 120px;
+    background: #FFF;
+    width: 600px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-bottom: 120px;
 }
-.placeholder{
-color: rgba(7, 2, 17, 0.30);
+
+.placeholder {
+    color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     margin-left: 45px;
 }
+/*footer section styles*/
+
+footer {
+    background: #070211;
+}
+.b-text{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        width: 375px;
+        margin: 120px 0px 50px 140px;
+}
+.number{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        width: 200px;
+        margin: 120px 290px 0px 0px;
+}
+.web{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        width: 215px;
+        margin: 0px 275px 50px 0px;
+        text-decoration: none;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+   .social{
+    text-align: center;
+    margin-bottom: 50px;
+   }
+   .hr{
+    width: 1320px;
+    height: 1%;
+    margin: 0px 140px 50px 140px;
+    border-top: 1px solid #08070726;
+
+   }
+   .copy{
+       display: flex;
+       justify-content: space-between;
+   }
+   .c-right{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0px 0px 120px 140px ;
+   }
+   .unsub{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0px 140px 120px 0px;
+   }
