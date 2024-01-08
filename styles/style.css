@@ -232,6 +232,9 @@ section {
     gap: 20px;
     padding: 20px;
 }
+img:hover{
+   background-color: black;
+}
 
 /*section-6 styles*/
 .section-6 {
