@@ -170,3 +170,26 @@ section{
     background: #F00;
     border: none;
 }
+/*section-5 styles*/
+.bf{
+    color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 0;  
+}
+.awesome{
+    color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        margin-top: 16px;
+        margin-bottom: 20px;
+}
+.bf-text{
+    color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        width: 896px;
+}
