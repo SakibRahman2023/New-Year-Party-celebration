@@ -90,6 +90,7 @@ section{
 /*Section-3 styles*/
 .banner-s3{
     background-image: url('../resources/Vectorrr.png');
+    /* background-image: linear-gradient(90deg,#07011 0%,rgba(7,2,17,0.00) 100%), url('../resources/Vectorrr.png'); */
     background-repeat: no-repeat;
     background: linear-gradient(100%);
 }
@@ -192,4 +193,10 @@ section{
         font-size: 20px;
         font-weight: 400;
         width: 896px;
+}
+.rec-1{
+    width: 424px;
+        height: 450px;
+        flex-shrink: 0;
+        border-radius: 16px;
 }
