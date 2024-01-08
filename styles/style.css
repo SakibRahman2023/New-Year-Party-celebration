@@ -303,7 +303,7 @@ footer {
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
-        width: 200px;
+        width: 300px;
         margin: 120px 290px 0px 0px;
 }
 .web{
@@ -350,4 +350,12 @@ footer {
         font-style: normal;
         font-weight: 500;
         margin: 0px 140px 120px 0px;
+   }
+   .icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+   }
+   .img-link{
+    margin-right: 24px;
    }
