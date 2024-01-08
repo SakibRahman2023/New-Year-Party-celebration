@@ -223,19 +223,9 @@ section {
     padding: 20px;
 }
 
-.img-1 {
-    display: flex;
-    width: 33%;
-    width: 400px;
-    height: 420px;
-    flex-shrink: 0;
-    gap: 20px;
-    padding: 20px;
-    
-}
-img :hover {
+/* img :hover {
 transform: scaleX(-1);
-}
+} */
 /*section-6 styles*/
 .section-6 {
     border-radius: 16px;
@@ -402,6 +392,12 @@ footer {
     margin-right: 24px;
 }
 /* bonus section 01*/
+   .img > img:hover{
+    opacity: 0.5;
+}
+  .img > img:hover {
+      opacity: 0.5;
+  } 
 .bonus{
     display: flex;
     flex-direction: row;
@@ -437,9 +433,9 @@ footer {
         border-radius: 364.844px;
         border: 15px solid red;
         padding: 25px;
-    
 
 }
+
 .bonus-1{
     background: #FFF;
 }
